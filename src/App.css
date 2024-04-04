@@ -161,7 +161,7 @@
 }
 
 .bg-footer {
-  background: url(./assets/images/footerbg.png), var(--c-primery-low);
+  background: url(./assets/images/footerbg.webp), var(--c-primery-low);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -392,7 +392,7 @@
   width: 24px !important;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-image: url(./assets/images/vector.png) !important;
+  background-image: url(./assets/images/vector.webp) !important;
   transform: var(--bs-accordion-btn-icon-transform) !important;
 }
 
