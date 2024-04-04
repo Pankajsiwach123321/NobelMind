@@ -65,6 +65,7 @@ const Contactus = () => {
         email: "",
         message: "",
       });
+      alert("Form submitted successfully!");
     }
   };
   return (
@@ -157,10 +158,7 @@ const Contactus = () => {
                   </p>
                 )}
               </div>
-              <input
-                className="mainbutton mt-4 px-4 py-14 lh-s fw-semibold outfit c-tertiry"
-                type="submit"
-              />
+              <Button class=" mt-4" type="submit" text="Submit" />
             </Form>
           </Col>
           <Col lg={7}>
