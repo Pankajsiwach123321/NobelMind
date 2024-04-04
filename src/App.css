@@ -219,6 +219,20 @@
   border-radius: 4px;
   transition: all 0.3s linear;
   border: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.mainbutton::after {
+  background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+  content: '';
+  inset: 0;
+  position: absolute;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all .3s linear;
 }
 
 .mainbutton:hover {
@@ -226,6 +240,10 @@
   color: #A854E9;
   outline: 1px solid #A854E9;
   border-radius: 4px;
+}
+
+.mainbutton:hover::after {
+  opacity: 0;
 }
 
 .subscribe-button {
