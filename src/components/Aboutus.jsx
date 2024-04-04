@@ -53,7 +53,7 @@ const Aboutus = () => {
       <span className="arrowabout1">
         <ArrowPloy />
       </span>
-      <span className="arrowabout2">
+      <span className="arrowabout2 d-none d-sm-block">
         <ArrowPloy />
       </span>
     </div>

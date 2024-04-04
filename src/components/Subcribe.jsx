@@ -35,7 +35,7 @@ const Subcribe = () => {
             className="outfit fw-light c-tertiry fs-lg lh_lg text-center  c-primery "
           >
             Subscribe to our
-            <span className=" fw-semibold ">Newsletter!</span>
+            <span className=" fw-semibold "> Newsletter!</span>
           </h2>
           <p
             data-aos="fade-down"

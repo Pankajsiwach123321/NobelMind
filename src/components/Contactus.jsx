@@ -162,12 +162,14 @@ const Contactus = () => {
             </Form>
           </Col>
           <Col lg={7}>
-            <Image
-              src={contactus}
-              alt="contactus"
-              height={584}
-              className=" w-100 h-400  rounded-12 "
-            />
+            <div className=" pl-52">
+              <Image
+                src={contactus}
+                alt="contactus"
+                height={584}
+                className=" w-100 h-400  rounded-12 "
+              />
+            </div>
           </Col>
         </Row>
       </Container>
