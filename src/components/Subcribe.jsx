@@ -51,6 +51,7 @@ const Subcribe = () => {
                 className="input-subcribe"
               />
               <input
+                onClick={(e)=>e.preventDefault()}
                 type="submit"
                 value="Subscribe"
                 className="subscribe-button transition-300 px-4 py-14 lh-s fw-semibold outfit c-tertiry"
