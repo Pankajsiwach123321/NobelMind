@@ -302,7 +302,7 @@
 }
 
 .py-51 {
-  padding: 51px 0 !important;
+  padding: 51px 0 49px 0 !important;
 }
 
 .swiper-slide-active div .cardslider {
@@ -679,7 +679,7 @@
 @media (min-width:576px) {
   :root {
     --fs-lg: 48px;
-    --fs-xl: 64px;
+    --fs-xl: 39px;
     /* line-height */
     --lh-lg: 57px;
     --lh-2xl: 70px;
@@ -716,6 +716,6 @@
 
 @media (min-width:1200px) {
   .min-h-screen-custum {
-    min-height: 100vh;
+    min-height: 810px;
   }
 }

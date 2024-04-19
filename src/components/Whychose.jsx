@@ -121,7 +121,7 @@ const Whychose = () => {
           data-aos="zoom-in"
           src={meeting}
           alt="meeting"
-          className=" rounded-4 mt-31 w-100"
+          className=" rounded-4  mt-2 w-100"
         />
       </Container>
       <span className="arrowchose1">
