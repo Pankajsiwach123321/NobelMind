@@ -23,10 +23,10 @@ const BackTop = () => {
         onClick={() =>
           setPosition({ ...position, position: { top: 0, left: 0 } })
         }
-        className="setbacktop"
+        className="fixed setbacktop  p-2 rounded-5 hidden bottom-[1%] right-[1%] z-30 translate-y-[0%] animate-bounce"
         ref={scrollTop}
       >
-        <div className=" bg-grdiant p-1 rounded-2">
+        <div className=" rounded-[50%] p-[6px] sm:p-[12px] cursor-pointer scroll-smooth transform-[all] transform-[.3s] transform-[linear] bg-[linear-gradient(306.99deg,#0A4740_-13.72%,#09655A_102.02%)] hover:bg-[linear-gradient(306.99deg,#09655A_102%,#0A4740_-13.02%)] flex justify-center items-center">
           <img
             src={backtop}
             alt="backtop"

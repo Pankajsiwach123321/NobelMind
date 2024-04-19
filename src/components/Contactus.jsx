@@ -69,7 +69,7 @@ const Contactus = () => {
     }
   };
   return (
-    <div className=" position-relative  z-1 mt-6 pt-sm-5" id="blog">
+    <div className=" position-relative  z-1 mt-6 pt-md-5" id="blog">
       <Container className=" mt-5 pt-sm-5">
         <Row className=" flex-column-reverse  flex-lg-row ">
           <Col lg={5} className="pt-4 pt-lg-0">

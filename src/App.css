@@ -288,7 +288,7 @@
 .arrowabout1 {
   position: absolute;
   z-index: -1;
-  top: -2%;
+  bottom: -7%;
   left: 29px;
 }
 
@@ -298,6 +298,7 @@
   transition: all 300ms linear;
   padding: 18px;
   height: 100%;
+  background-color: white;
 }
 
 .py-51 {
@@ -520,7 +521,15 @@
 }
 
 .min-h-screen-custum {
-  min-height: calc(100vh - 86px);
+  min-height: 65vh;
+}
+
+.setbacktop {
+  transition: all 300ms linear;
+  background: #A854E9;
+}
+.setbacktop:hover {
+  background: #4F91FC;
 }
 
 .over_flow {
@@ -645,6 +654,20 @@
   .h-400 {
     height: 400px;
   }
+
+  .layer_max_lg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #ffffff53;
+    z-index: -1;
+  }
+}
+
+@media (max-width:576px) {
+  .-mt-13 {
+    margin-top: -11%;
+  }
 }
 
 @media (min-width:1400px) and (max-width:1600px) {
@@ -688,5 +711,11 @@
 
   .pl-52 {
     padding-left: 52px;
+  }
+}
+
+@media (min-width:1200px) {
+  .min-h-screen-custum {
+    min-height: 100vh;
   }
 }

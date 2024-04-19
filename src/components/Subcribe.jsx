@@ -38,7 +38,7 @@ const Subcribe = () => {
     }
   };
   return (
-    <div className=" position-relative z-1 mt-md-5 pt-lg-23" id="service">
+    <div className=" position-relative -mt-13 z-1 mt-md-5 pt-lg-23" id="service">
       <Container>
         <div className="bg-newsellter translate-y-card">
           <h2
@@ -79,7 +79,7 @@ const Subcribe = () => {
           )}
         </div>
       </Container>
-      <span className="arrowsubscribe1">
+      <span className="arrowsubscribe1 d-none d-sm-block">
         <ArrowPloy />
       </span>
     </div>

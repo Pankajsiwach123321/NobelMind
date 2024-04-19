@@ -11,7 +11,7 @@ const Navbar = () => {
     document.body.classList.remove("over_flow");
   }
   return (
-    <nav className=" py-3 my-1">
+    <nav className=" py-3 my-1 position-relative z-2">
       <Container>
         <div className=" position-relative  d-flex justify-content-between  align-items-center ">
           <ul className="mb-0 ps-0">
